@@ -1,0 +1,132 @@
+
+        body{
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+            font-family: sans-serif;
+        }
+        .navbar-brand{
+            border: 3px solid black;
+            font-weight: bolder;
+            padding: 5px 10px;
+        }
+        .navbar-brand:hover{
+            border: 3px solid rgb(255, 115, 0);
+        }
+
+        .jumbotron{
+            padding: 150px 0 150px 0;   
+            background-image: url(https://i.ibb.co/XDv4VCk/wallpaperflare-com-wallpaper.jpg);
+            width: 100%;
+            height: auto;
+            max-width: 100%;
+            color: white;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover; /* Resize the background image to cover the entire container */
+        }
+        .content{
+            padding: 50px 0 50px 0;
+            text-align: center;
+        }
+        .heading{
+            border-bottom: 3px solid black;
+            font-size: 40px;
+        }
+        .heading:hover{
+            border-bottom: 3px solid  rgb(255, 115, 0);
+
+        }
+        .assignmentForm input{
+            border: none;
+            border-bottom: 2px solid black;
+            border-radius: 0%;
+            font-family: inherit;
+
+        }
+
+        .form-group i {
+            visibility: hidden;
+            padding-top: 5px;
+        }
+        .form-group small{
+            visibility: hidden;
+            padding-top: 5px;
+        }
+        .assignmentForm input:focus {
+            box-shadow: none;
+        }
+
+        .form-group.success input{
+            border-color: rgb(10, 202, 10);
+        }
+        .form-group.error input{
+            border-color: red;
+        }
+
+        .form-group.success i.fa-check-circle{
+            color: rgb(10, 202, 10);
+            visibility: visible;
+        }
+        .form-group.error i.fa-exclamation-circle{
+            color: red;
+            visibility: visible;
+        }
+
+        .form-group.error small{
+            color: red;
+            visibility: visible;
+        }
+        #formCard{
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            max-width: 100%;
+            width: 600px;
+            margin: auto ;
+            display: block;
+        }
+        #sticky-footer {
+            flex-shrink: none;
+            margin-top: 80px;
+        }
+
+        #profileCard{
+            margin-top: 20px;
+            padding-right: 0;
+            padding-left: 0;
+            border-radius: 5px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+        }
+        #techCard{
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+            padding-right: 0;
+            padding-left: 0;
+        }
+        #techCard a{
+            pointer-events: none;
+        }
+        .row{
+            padding: 10px;
+        }
+        span a:any-link{
+            text-decoration: none;
+            color: black;
+        }
+        span a:hover{
+            color: rgb(255, 115, 0);
+        }
+        
+        footer a:any-link{
+            text-decoration: none;
+            color: white;
+        }
+
+        #socialIcons a:hover{
+            color: rgb(255, 115, 0);
+
+        }
+        footer hr{
+            width: 50%;
+            background-color: white;
+        }
